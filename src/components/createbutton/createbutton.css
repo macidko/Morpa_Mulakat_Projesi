@@ -1,0 +1,25 @@
+/* Styles for the container of the create button */
+.create-button-cont {
+    width: 45%;
+}
+
+/* Styles for the create button itself */
+.create-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: var(--button-background);
+    color: var(--white);
+    cursor: pointer;
+}
+
+/* Styles for the check-circle icon within the button */
+#check-circle {
+    width: 25px;
+}

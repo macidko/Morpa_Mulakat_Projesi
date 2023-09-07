@@ -1,0 +1,12 @@
+@import url("../../assets/styles/variables.css"); /* Importing external CSS variables */
+
+.text-cont {
+    width: 70%; /* Setting the width of .text-cont */
+    padding: 1rem; /* Adding padding to .text-cont */
+    color: var(--secondary); /* Setting text color using a CSS variable */
+    font-weight: 600; /* Setting font weight to bold */
+    background-color: var(--white); /* Setting background color using a CSS variable */
+    border-radius: 10px; /* Adding border radius for rounded corners */
+    box-shadow: var(--box-shadow); /* Applying a box shadow using a CSS variable */
+    text-align: center; /* Center-aligning the text within .text-cont */
+}

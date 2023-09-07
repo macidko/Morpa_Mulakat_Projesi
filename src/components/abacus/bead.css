@@ -1,0 +1,8 @@
+.bead {
+  width: 18px; /* Bead width */
+  height: 18px; /* Bead height */
+  background-color: #ffcc00; /* Bead color (e.g., yellow) */
+  border-radius: 50%; /* Bead shape (circular) */
+  margin: 1.5px; /* You can add desired margin */
+  z-index: 1;
+}

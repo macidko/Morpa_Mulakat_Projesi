@@ -1,0 +1,31 @@
+:root {
+    /* White color */
+    --white: #ffffff;
+    
+    /* Background color */
+    --background-color: #e1f1ff;
+    
+    /* Primary color */
+    --primary: #4a4a4a;
+    
+    /* Secondary color */
+    --secondary: #63849e;
+    
+    /* Count background color */
+    --count-background: #ececec;
+    
+    /* Count button background color */
+    --count-button-background: #f5f5f5;
+    
+    /* Count button text color */
+    --count-button-color: #b9b9b9;
+    
+    /* Abacus bead color */
+    --abacus-bead: #ffb83e;
+    
+    /* Button background color */
+    --button-background: #5ac4af;
+    
+    /* Box shadow color */
+    --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

@@ -1,0 +1,41 @@
+/* Styles for the container of inputs */
+.input-cont {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    grid-gap: 5px;
+}
+
+/* Styles for the input fields */
+.input {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    flex: 1 1;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* Styles for the count button and count display */
+.count-button,
+.count {
+    flex: 1;
+}
+
+/* Styles for the count display */
+.count {
+    background-color: var(--count-background);
+    text-align: center;
+    border: none;
+}
+
+/* Styles for the count button */
+.count-button {
+    background-color: var(--count-button-background);
+    color: var(--count-button-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

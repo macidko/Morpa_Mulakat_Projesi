@@ -1,0 +1,20 @@
+/* Import Variables */
+@import url("./assets/styles/variables.css"); /* Import variables from an external CSS file */
+
+* {
+    padding: 0; /* Set padding to 0 for all elements */
+    margin: 0; /* Set margin to 0 for all elements */
+    box-sizing: border-box; /* Use border-box for box sizing to include padding and border in element's total width and height */
+}
+
+/* Body */
+body {
+    background-color: var(--background-color); /* Set the background color of the body using a variable */
+}
+
+#root {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Set flex direction to column */
+    align-items: center; /* Align items to the center */
+    gap: 1rem; /* Set a gap between child elements */
+}

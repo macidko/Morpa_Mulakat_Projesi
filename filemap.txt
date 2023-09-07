@@ -1,0 +1,40 @@
+src/
+|-- assets/
+|   |-- images/
+|       |-- morpalogo_beyaz.png 
+|   |-- styles/
+|       |-- _variables.scss
+|
+|-- components/
+|   |-- common/
+|   |   |-- Navbar.js
+|   |
+|   |-- loginscreen/
+|   |   |-- LoginScreen.jsx
+|   |
+|   |-- input/
+|   |   |-- Input.jsx
+|   |   |-- input.css
+|   |
+|   |-- abacus/
+|   |   |-- Abacus.jsx
+|   |   |-- abacus.css
+|   |
+|   |-- createButton/
+|   |   |-- CreateButton.jsx
+|   |   |-- createbutton.css
+|   |
+|   |-- text/
+|   |   |-- text.jsx
+|   |   |-- text.css
+|   |
+|-- redux/
+|   |-- reducers/
+|   |   |-- counterReducer.js
+|   |   |-- userReducer.js
+|   |   |-- rootReducer.js
+|   |
+|   |-- store.js
+|-- App.js
+|-- index.css
+|-- index.js

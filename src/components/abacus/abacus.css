@@ -1,0 +1,50 @@
+/* Abacus container */
+.abacus-cont {
+    /* Set the width of the abacus container */
+    width: 55%;
+    
+    /* Create a flex container with a vertical direction */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Abacus lines container */
+.lines-cont {
+    /* Create a flex container with even spacing between items */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Abacus line */
+.line {
+    /* Set the background color using a custom CSS variable */
+    background-color: var(--primary);
+    
+    /* Set the width of the line */
+    width: 5px;
+    
+    /* Set the minimum height of the line */
+    min-height: 200px;
+    
+    /* Create a flex container with a vertical direction */
+    display: flex;
+    flex-direction: column;
+    
+    /* Align items in the center horizontally */
+    align-items: center;
+    
+    /* Place content at the end of the line */
+    justify-content: flex-end;
+    
+    /* Set the z-index to be behind other elements */
+    z-index: -1;
+}
+
+/* Abacus bottom separator */
+.bottom {
+    /* Set the height of the bottom separator */
+    height: 20px;
+    
+    /* Set the background color using a custom CSS variable */
+    background-color: var(--primary);
+}

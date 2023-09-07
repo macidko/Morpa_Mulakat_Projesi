@@ -1,0 +1,34 @@
+/* Import custom CSS variables */
+@import url("../../assets/styles/variables.css");
+
+/* Header styles */
+.header {
+    width: 100%;
+    padding: 1rem; /* Add padding to the header */
+    background-color: var(--white); /* Set background color to white */
+    box-shadow: var(--box-shadow); /* Apply a box shadow using a custom variable */
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right end of the container */
+    gap: 0.5rem; /* Add a small gap between items */
+    align-items: center;
+}
+
+/* Username styles */
+.username {
+    font-size: 1.1em; /* Set the font size to 1.1em */
+    color: var(--primary); /* Set text color using a custom variable */
+}
+
+/* Logout icon styles */
+.logout-icon {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    cursor: pointer; /* Change cursor to a pointer on hover for better UX */
+}
